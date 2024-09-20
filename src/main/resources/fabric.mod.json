@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "musix",
+  "version": "${version}",
+  "name": "Musix",
+  "description": "Enhanced music",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/musix/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.wyne.musix.client.MusixClient"
+    ],
+    "main": [
+      "me.wyne.musix.Musix"
+    ]
+  },
+  "mixins": [
+    "musix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
