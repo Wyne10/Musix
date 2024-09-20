@@ -1,17 +1,20 @@
 {
   "schemaVersion": 1,
   "id": "musix",
-  "version": "${version}",
+  "version": "${mod_version}",
   "name": "Musix",
   "description": "Enhanced music",
-  "authors": [],
-  "contact": {},
+  "authors": [ "Wyne" ],
+  "contact": {
+    "homepage": "https://github.com/Wyne10/",
+    "sources": "https://github.com/Wyne10/Musix",
+    "issues": "https://github.com/Wyne10/Musix/issues"
+  },
   "license": "GPL-3.0",
-  "icon": "assets/musix/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "me.wyne.musix.client.MusixClient"
+      "me.wyne.musix.Musix"
     ],
     "main": [
       "me.wyne.musix.Musix"
